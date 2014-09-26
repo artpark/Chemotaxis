@@ -44,8 +44,8 @@ class Bacteria
   }
   void walk()
   {
-    myX += (Math.random()*5)-2;
-    myY += (Math.random()*5)-2;
+    myX += (int)(Math.random()*5)-2;
+    myY += (int)(Math.random()*5)-2;
   }
   void jump()
   {
